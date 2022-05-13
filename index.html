@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Spotify Clone Coding</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet-mobile" href="stylesheet-mobile.css" />
+    <script
+      src="https://kit.fontawesome.com/d70ea69040.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="side-bar">
+      <nav>
+        <image
+          class="logo"
+          src="https://www.pngkey.com/png/full/190-1907978_spotify-logo-png-white-spotify-logo-white-transparent.png"
+          alt="spotify"
+        ></image>
+        <div class="menu">
+          <a href="#" id="home"
+            ><i class="fa-solid fa-house"></i><span>Home</span></a
+          >
+
+          <a href="#"
+            ><i class="fa-solid fa-magnifying-glass"></i><span>Search</span></a
+          >
+
+          <a href="#"
+            ><i class="fa-solid fa-lines-leaning"></i
+            ><span>Your Library</span></a
+          >
+        </div>
+        <div class="personalize">
+          <a href="#"><i class="fa-solid fa-square-plus"></i>Create Playlist</a>
+          <a href="#"><i class="fa-solid fa-heart"></i>Liked Songs</a>
+        </div>
+      </nav>
+      <div class="terms">
+        <a href="#"><div>Cookies</div></a>
+        <a href="#"><div>Privacy</div></a>
+      </div>
+    </div>
+
+    <div class="app">
+      <header>
+        <div class="arrow">
+          <div><i class="fa-solid fa-arrow-left"></i></div>
+          <div><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+        <div class="options">
+          <div class="options-left">
+            <div class="options-nav">
+              <div><button>PREMIUM</button></div>
+              <div><button>SUPPORT</button></div>
+              <div><button>DOWNLOAD</button></div>
+            </div>
+            <div id="longbar">|</div>
+            <div><button>SIGN UP</button></div>
+          </div>
+          <button class="logIn">LOG IN</button>
+        </div>
+        <div class="header-mobile">
+          <span>Good morning</span>
+          <div>
+            <i class="fa-solid fa-clock-rotate-left"></i
+            ><i class="fa-solid fa-gear"></i>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="music-section">
+          <div class="music-section-header">
+            <div class="music-section-header-title">
+              <a href="#">Bleib auf dem Laufenden</a>
+            </div>
+            <div class="music-section-header-seeAll">
+              <a href="#">SEE ALL</a>
+            </div>
+          </div>
+          <div class="music-section-articles">
+            <article id="bleib" className="article"></article>
+          </div>
+        </div>
+
+        <div class="music-section">
+          <div class="music-section-header">
+            <div class="music-section-header-title"><a href="#">Focus</a></div>
+            <div class="music-section-header-seeAll">
+              <a href="#">SEE ALL</a>
+            </div>
+          </div>
+          <div class="music-section-articles">
+            <article id="focus"></article>
+          </div>
+        </div>
+
+        <div class="music-section">
+          <div class="music-section-header">
+            <div class="music-section-header-title"><a href="#">Mood</a></div>
+            <div class="music-section-header-seeAll">
+              <a href="#">SEE ALL</a>
+            </div>
+          </div>
+          <div class="music-section-articles">
+            <article id="mood"></article>
+          </div>
+        </div>
+
+        <div class="music-section">
+          <div class="music-section-header">
+            <div class="music-section-header-title">
+              <a href="#">Entdecke neue Podcasts</a>
+            </div>
+            <div class="music-section-header-seeAll">
+              <a href="#">SEE ALL</a>
+            </div>
+          </div>
+          <div class="music-section-articles">
+            <article id="entdecke"></article>
+          </div>
+        </div>
+
+        <div class="music-section">
+          <div class="music-section-header">
+            <div class="music-section-header-title">
+              <a href="#">Popular new releases</a>
+            </div>
+            <div class="music-section-header-seeAll">
+              <a href="#">SEE ALL</a>
+            </div>
+          </div>
+          <div class="music-section-articles">
+            <article id="popular"></article>
+          </div>
+        </div>
+        <div class="music-section">
+          <div class="music-section-header">
+            <div class="music-section-header-title">
+              <a href="#">Soundtrack your home</a>
+            </div>
+            <div class="music-section-header-seeAll">
+              <a href="#">SEE ALL</a>
+            </div>
+          </div>
+          <div class="music-section-articles">
+            <article id="soundtrack"></article>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footer-upper">
+          <div class="footer-upper-about">
+            <div>
+              <div>COMPANY</div>
+              <div class="column">
+                <a href="#">Impressum</a><a href="#">About</a
+                ><a href="#">Jobs</a><a href="#">For the Record</a>
+              </div>
+            </div>
+            <div>
+              <div>COMMUNITIES</div>
+              <div class="column">
+                <a href="#">For Artists</a><a href="#">Developers</a
+                ><a href="#">Advertising</a><a href="#">Investors</a
+                ><a href="#">Vendors</a>
+              </div>
+            </div>
+            <div>
+              <div>USEFUL LINKS</div>
+              <div class="column">
+                <a href="#">Support</a><a href="#">Free Mobile App</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-upper-link">
+            <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+          </div>
+        </div>
+        <div class="footer-under">
+          <div>
+            <div class="footer-under-terms">
+              <a href="#">Legal</a><a href="#">Privacy Center</a
+              ><a href="#">Privacy Policy</a><a href="#">Cookie Settings</a
+              ><a href="">About Ads</a>
+            </div>
+            <div class="footer-under-copyright">© 2022 Spotify AB</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

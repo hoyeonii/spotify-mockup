@@ -1,0 +1,11 @@
+/* mobile version */
+@media screen and (max-width: 620px) {
+  footer {
+    display: none;
+  }
+  main img {
+    width: 10%;
+    border-radius: 5px;
+    margin: 13px;
+  }
+}
